@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/trade"
+    tools:context=".CalculateActicity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_result"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:shadowColor="@color/button_text"
+        android:text="@string/valor_em_criptomoeda_title"
+        android:textColor="@color/label_text"
+        android:textSize="25sp"
+        android:fontFamily="serif"
+        android:background="@color/label_background"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:shadowColor="@color/button_text"
+        android:text="@string/valor_criptomoeda"
+        android:background="@color/label_background"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

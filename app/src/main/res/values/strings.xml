@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">e-Money Currency</string>
+    <string name="valor_real">valor</string>
+    <string name="valor_em_reais_title">valor em BRL:</string>
+    <string name="calcular">Calcular</string>
+    <string name="valor_criptomoeda">valor criptomoeda</string>
+    <string name="valor_em_criptomoeda_title">Valor em criptomoeda:</string>
+
+    <string-array name="coins">
+        <item>BITCOIN</item>
+        <item>MONERO</item>
+        <item>XRP</item>
+    </string-array>
+
+</resources>
